@@ -20,7 +20,7 @@ st.title('How dangerous are these conditions?')
 #with open('../Code/Models/rfmodel.pkl', 'rb') as pickle_in:
     #model = pickle.load(pickle_in)
 
-with open('../Code/Models/columns_list.pkl', 'rb') as pickle_in:
+with open('./columns_list.pkl', 'rb') as pickle_in:
     columns = pickle.load(pickle_in)
 
 
