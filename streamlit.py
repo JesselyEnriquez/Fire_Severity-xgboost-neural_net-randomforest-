@@ -94,6 +94,7 @@ with st.form('prediction_form'):
         #     if col not in df_list:
         #         list_diff.append(col)
         #print('Hello')
+        #st.write(set(columns)-set(df.columns))
+        #st.write(df)
         preds = model10_pickled.predict(df)
         st.write('PREDICTING FIRE CLASS OF',str(preds[0]))
-        #st.write(df)
